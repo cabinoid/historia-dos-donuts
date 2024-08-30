@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do Donut - Um Doce Fascinante</title>
+    <link rel="shortcut icon" href="favicondonuts.png" type="png">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #fbe7a1; /* Cor de massa de donut */
+            color: #4a3f35; /* Cor de chocolate */
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+        header {
+            background-color: #e18d96; /* Cor de cobertura rosa */
+            padding: 40px 20px;
+            text-align: center;
+            color: #fff; /* Cor de açúcar */
+            border-bottom: 5px solid #d2691e; /* Cor de caramelo */
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: relative;
+        }
+        header h1 {
+            font-size: 3em;
+            margin: 0;
+            animation: slideIn 2s ease-out;
+        }
+        header p {
+            font-size: 1.2em;
+            margin-top: 10px;
+            animation: fadeIn 3s ease-in-out;
+        }
+        @keyframes slideIn {
+            from { transform: translateX(-100%); }
+            to { transform: translateX(0); }
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            max-width: 1200px;
+            margin: auto;
+            border-bottom: 3px solid #d2691e; /* Cor de caramelo */
+        }
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #e18d96; /* Cor de cobertura rosa */
+            position: relative;
+            display: inline-block;
+        }
+        section h2::after {
+            content: '';
+            width: 50px;
+            height: 5px;
+            background-color: #e18d96; /* Cor de cobertura rosa */
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+        section p {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+        section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #e18d96; /* Cor de cobertura rosa */
+            color: #fff; /* Cor de açúcar */
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .animation-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            animation: zoomIn 2s ease-in-out;
+        }
+        @keyframes zoomIn {
+            from { transform: scale(0); }
+            to { transform: scale(1); }
+        }
+        .fact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 40px;
+        }
+        .fact-grid div {
+            background-color: #fff3e0; /* Cor de massa de donut clara */
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+        .fact-grid div:hover {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A Fascinante História do Donut</h1>
+        <p>Descubra como esse doce icônico conquistou o mundo!</p>
+    </header>
+
+    <section>
+        <div class="animation-container">
+            <img src="https://img.freepik.com/fotos-gratis/donuts-deliciosos-gerados-por-ai_23-2150694596.jpg" alt="Delicioso Donut">
+        </div>
+        <h2>Origem do Donut</h2>
+        <p>Os donuts, conhecidos por suas formas únicas e sabor irresistível, têm uma história fascinante. Eles foram introduzidos nos Estados Unidos por colonos holandeses, com suas "bolos oleosos", que evoluíram para o donut que conhecemos hoje.</p>
+    </section>
+
+    <section>
+        <h2>Como Surgiu o Formato de Anel?</h2>
+        <p>A criação do donut em formato de anel é creditada a Hanson Gregory, um marinheiro que, em 1847, criou o primeiro donut cortando o centro da massa para garantir um cozimento mais uniforme. O formato rapidamente se popularizou e tornou-se um ícone.</p>
+        <div class="animation-container">
+            <img src="https://img.freepik.com/fotos-premium/donuts-com-acucar-em-po-donuts-tradicionais-em-forma-de-anel-frito-em-oleo-sobre-fundo-preto-comida-sem-qualidade-fechar-se_165587-952.jpg" alt="Donut em formato de anel">
+        </div>
+    </section>
+
+    <section>
+        <h2>Curiosidades</h2>
+        <div class="fact-grid">
+            <div>
+                <h3>Primeira Máquina de Donuts</h3>
+                <p>Em 1920, a primeira máquina de fazer donuts foi inventada por Adolph Levitt, um imigrante russo. Essa invenção revolucionou a produção de donuts em massa!</p>
+            </div>
+            <div>
+                <h3>Dia Nacional do Donut</h3>
+                <p>Nos Estados Unidos, o Dia Nacional do Donut é celebrado na primeira sexta-feira de junho. A tradição começou como uma homenagem aos voluntários da Primeira Guerra Mundial que serviam donuts aos soldados.</p>
+            </div>
+            <div>
+                <h3>Donuts no Espaço</h3>
+                <p>Em 2017, a empresa Krispy Kreme enviou donuts ao espaço a bordo de um balão de alta altitude para celebrar o 80º aniversário da marca.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 História do Donut. Todos os direitos reservados. Desenvolvido com 💖.</p>
+    </footer>
+</body>
+</html>
